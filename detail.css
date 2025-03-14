@@ -1,0 +1,112 @@
+body {
+    background-color: dodgerblue;
+    padding-top: 0px;
+    margin: 0px;
+    /* background-image: url(https://img.freepik.com/free-vector/black-background-with-focus-spot-light_1017-27230.jpg?t=st=1732953759~exp=1732957359~hmac=e8d3d0d3f8139213ef8940c074c894c0b767b185f15d9e280a7609508b6274d7&w=740); */
+    /* background-image: url(https://img.freepik.com/free-vector/black-carbon-fiber-texture-pattern-background_1017-33436.jpg?t=st=1732955900~exp=1732959500~hmac=938fbd30aecf23603649c1b9a5090fa389474349d49b19deb28dff8e86058bf5&w=900); */
+    background-image: url(https://img.freepik.com/free-vector/abstract-black-texture-background-hexagon_206725-413.jpg?t=st=1732956231~exp=1732959831~hmac=786d7e50729b38f2973aac2631b5d70a566df7fd247535814f9e721d4dc9ee8a&w=826);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: url(pics_project/main.jpg); */
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    padding: 8px;
+    /* display: flex; */
+    border-bottom: 1px solid white;
+    /* justify-content: space-between; */
+    /* text-align: center; */
+}
+
+#title {
+    font-size: 30px;
+    padding: 7px;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* transform: translateX(30%); */
+    /* text-align: center; */
+}
+
+form {
+    padding-left: 120px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+    border-radius: 5%;
+    border:  solid 1px black;
+}
+
+#name,
+#phone,
+#email,
+#address {
+    width: 65%;
+    height: 30px;
+}
+
+.labels {
+    font-weight: bold;
+    font-size: x-large;
+    font-family: monospace;
+    /* padding-bottom: 50px; */
+}
+
+h1 {
+    text-align: center;
+    color: rgb(208, 207, 207);
+}
+
+#formdiv {
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+#top {
+    width: 7%;
+}
+
+#submit {
+    font-size: large;
+    font-weight: bold;
+    background-color: dodgerblue;
+    font-family: 'Courier New', Courier, monospace;
+    width: 280px;
+    height: 30px;
+}
+
+#submit:hover {
+    background-color: darkblue;
+}
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 0px 0;
+    font-size: 1.0em;
+    margin-top: 20px;
+    border-top: 1px solid blanchedalmond;
+    border-bottom: 1px solid black;
+}
+#welcome{
+    /* background-color: #2e3a46; */
+    color: #e6dcd7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid #0d7777; */
+    /* border-radius: 2px; */
+}
+input{
+    border: solid 1px black;
+    border-radius: 4%;
+    background-color: rgb(233, 233, 233);
+    /* width: 200px; */
+}

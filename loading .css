@@ -1,0 +1,71 @@
+body{
+    /* display: flex; */
+    /* justify-content: center; */
+    padding-top: 200px;
+    /* margin-left: 50px; */
+    /* padding-left: px; */
+    text-align: center;
+    background-color: rgb(59, 58, 58);
+    /* background-image: url(https://img.freepik.com/free-vector/gradient-black-backgrounds-with-golden-frames_23-2149150610.jpg?t=st=1732957953~exp=1732961553~hmac=0dce2b0de7d4e6ff6259a4006c9b66fca50900b6494f596efba9e698351f4cd1&w=740); */
+    /* background-image: url(https://img.freepik.com/free-vector/floral-ornamental-abstract-background_52683-30016.jpg?t=st=1732958081~exp=1732961681~hmac=db1a3762fdb800159af5b3170269d55d7af5afba4632739b4a7996cb0b4a43da&w=740); */
+    background-image: url(https://img.freepik.com/free-vector/abstract-black-texture-background-hexagon_206725-413.jpg?t=st=1732956231~exp=1732959831~hmac=786d7e50729b38f2973aac2631b5d70a566df7fd247535814f9e721d4dc9ee8a&w=826);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: antiquewhite;
+    align-items: center;
+    margin: 0;
+}
+.container{
+    display: flex; 
+    justify-content:center;
+    align-items: center;
+}
+.loader{
+    /* position: absolute; */
+    /* transform: translateX(); */
+    /* align-items: center; */
+    width: 80px;
+    height: 80px;
+    border: 10px solid whitesmoke;
+    border-radius: 50%;
+    border-top-color: dodgerblue;
+    animation: loading 1s linear infinite;
+}
+@keyframes loading {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 0px 0;
+    font-size: 1.0em;
+    margin-top: 20px;
+    border-top: 1px solid blanchedalmond;
+    border-bottom: 1px solid black;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+  header {
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    /* font-size: xx-large; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* display: flex; */
+    border-bottom: 1px solid white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    /* justify-content: space-between; */
+    /* text-align: center; */
+}
+

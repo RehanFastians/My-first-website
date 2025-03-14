@@ -1,0 +1,148 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .top{
+    background-image: url(pics_project/top.jpg);
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    height: 400px;
+    font-family: fantasy;
+    text-align: center;
+    /* border: 2px solid bisque; */
+    /* background-color: #344038; */
+    color:rgb(231, 225, 225);
+    font-style: bold;
+  
+    font-size:100px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(71, 78, 86);
+    color: #1d0b0b;
+  }
+  
+  header {
+    background-color: #565656;
+    color: #e6dcd7;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  main{
+    background-image: url(https://img.freepik.com/free-vector/black-background-with-focus-spot-light_1017-27230.jpg?t=st=1732953759~exp=1732957359~hmac=e8d3d0d3f8139213ef8940c074c894c0b767b185f15d9e280a7609508b6274d7&w=740);
+    /* background-image: url(https://img.freepik.com/free-vector/abstract-black-texture-background-hexagon_206725-413.jpg?t=st=1732956231~exp=1732959831~hmac=786d7e50729b38f2973aac2631b5d70a566df7fd247535814f9e721d4dc9ee8a&w=826); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: url(pics_project/main.jpg); */
+    /* background-image: url(pics_project/rrt1.jpg); */
+    /* width: 6000px;
+    height: 50%; */
+    /* filter: brightness(50%); */
+  }
+  header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+  }
+  
+  header nav ul li {
+    margin: 0;
+  }
+  
+  header nav ul li a {
+    color: #e6dcd7;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 5px 10px;
+  }
+  
+  header nav ul li a:hover {
+    background-color: #989292;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  main h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: bisque;
+  }
+  
+  main h2 {
+    text-align: center;
+    color: #e6dcd7;
+  }
+  
+  .slider {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    height: 500px;
+    margin: 20px auto;
+    overflow: hidden;
+    
+  }
+  
+  .slider .slides-container {
+    display: flex;
+    margin-left: 500px;
+    transition: transform 1s ease-in-out; /* Smooth sliding */
+  }
+  
+  .slider .slide {
+    min-width: 100%;
+    height: 200px;
+    /* border: solid slategray; */
+  }
+  
+  .slider .slide img {
+    width: 80%;
+    height: 150%;
+    object-fit: cover;
+    justify-content: center;
+    border-radius: 10px;
+    /* border: 3px solid; */
+  }
+  img{
+    /* border: solid red; */
+    box-shadow: 0 30px 18px -8px black;
+    /* filter: brightness(150%); */
+  }
+  .about {
+    text-align: center;
+    color: white;
+    border: 2px solid wheat;
+    background-color: #09012e5d;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px 0;
+  }
+  
+  footer {
+    background-color: #040a11;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+    margin-top: 20px;
+    border: 2px solid blanchedalmond;
+  }
+
